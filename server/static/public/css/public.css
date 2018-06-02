@@ -1,0 +1,69 @@
+/*
+ * 时间：2018-04-23
+ * 公共样式库
+ * @font-face 字体库
+ */
+
+*{
+	-webkit-text-size-adjust:100%;   /*禁止用户调整大小*/
+    padding: 0;margin: 0;
+    font-weight: none;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("../fonts/Montserrat-Regular.otf") format("opentype"),
+    url("../fonts/Montserrat-Light.otf") format("opentype"),
+    url("../fonts/Montserrat-UltraLight.otf") format("opentype"),
+    url("../fonts/Montserrat-SemiBold.otf") format("opentype"),
+    url("../fonts/Montserrat-ExtraBold.otf") format("opentype"),
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul,li,ol,dd,dt{
+    list-style: none;
+}
+
+a {
+    outline: medium none;
+}
+
+a:hover{
+   cursor: pointer;
+   text-decoration: none;
+}
+.container-responsive{
+    min-width: 1300px;
+    overflow: scroll;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and ( max-width:600px ) {
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
+
+
+

@@ -1,0 +1,260 @@
+/*
+ * 时间：2018-04-23
+ * 首屏欢迎页
+ * @  导航样式
+ */
+
+.header-top{
+    background: #363636;
+    padding: 7px 0;
+    box-shadow: 0px 2px 5px 0px hsl(0, 1%, 59%);
+}
+
+.header-top a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+}
+
+
+.header-top-left .left,
+.header-top-mid .left
+{
+    display: inline-block;
+    position: relative;
+    margin-right: 25px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    
+}
+
+.header-top-left .left .left-li,
+.header-top-mid .left .left-li
+{
+    position: relative;
+    line-height: 32px;
+}
+
+.left .left-li-a,
+.left-li-a
+{
+    font-size: 10px;
+    font-weight: 600;
+    color: #ddd;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.header-top-mid .left .left-li a span ,
+.header-top-left .left .left-li a span
+{
+    margin-right: 10px;
+   
+}
+
+
+
+.header-top-right {
+    float: right;
+    margin-top: 5px;
+}
+
+/** 伪类 */
+.header-top-right ::after {
+    box-sizing: border-box;
+}
+
+.search {
+    margin-right: 20px;
+}
+
+.search a {
+    outline: medium none;
+    color: #a6a6a6;
+}
+
+.search a img {
+    vertical-align: center;
+    border: 0;
+}
+
+
+.s-se {
+    background: rgba(0, 0,0,0) none repeat scroll 0 0;
+    border:1px solid #a6a6a6;
+    color: #ffffff;
+    height: 26px;
+    line-height: 26px;
+    width: 75%;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+
+/**=====================================*/
+
+
+
+
+/**=========下拉导航 样式 和 动画 ======================*/
+
+.header-down,
+.header-doc,
+.header-login 
+{
+    position: absolute;
+    left:0;
+    top: 100%;
+
+    width: 130px;
+    padding: 8px 0 5px 28px;
+    margin-bottom: 0;
+    opacity: 1;
+    
+    transform: scaleY(0);
+    transform-origin: center top 0;
+    transition: all .3s linear 0s;
+    box-shadow: 0 0 5px -4px #595959;
+    background: #fff !important;
+    z-index: 1;
+}
+
+
+
+.a-hover:hover{
+    color: #cd6289;
+}
+
+
+.header-doc-p {
+    left: 50%;
+    margin-left: -65px;
+    top: 100%;
+    width: 130px;
+}
+
+.header-doc-p input {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.header-doc-p h4 {
+    font-size: 10px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+}
+.header-doc-p h4 strong {
+    font-weight: bold;
+    display: block;
+    font-size: 12px;
+}
+
+
+
+
+
+.header-down li ,
+.header-doc li
+{
+    line-height: 32px;
+    position: relative;
+}
+
+.header-down li ::before 
+{
+    background: #a6a6a6 none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 7px;
+    left: -12px;
+    position: absolute;
+    top: 13px;
+    width: 7px;
+    transition: all 0.5s ease 0s;
+}
+
+.header-down li a ,
+.header-doc li a 
+{
+    font-size: 10px;
+    font-weight: 600;
+    color: #a6a6a6;
+}
+
+
+
+
+.li-1 span ,
+.li-2 span 
+{
+    margin-left: 7px;
+}
+
+
+/**=====================================*/
+
+
+
+.header-inpu {
+    border: 1px solid #e1e1e1;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    padding-left: 30px;
+    z-index: 111;
+    font-size: 10px;
+}
+
+.header-user-inpu {
+    background:url("../images/header/user.png") no-repeat scroll 12px 10px;
+    margin-top: 20px;
+}
+
+.header-pass-inpu {
+    background:url("../images/header/password.png") no-repeat scroll 12px 10px;
+}
+
+
+.checks {
+    position: relative;
+    height: 100px;
+}
+
+.check-span {
+    display:block;
+    position: absolute;
+    left: 17px;
+    top:2px;
+    font-size: 10px;
+}
+
+
+.header-btn {
+    display: block;
+    height: 30px;
+    margin: 10px auto;
+}
+
+
+
+.header-login-p {
+    z-index: 99;
+    left: 50%;
+    margin-left: -115px;
+    width: 230px;
+    padding: 30px
+}
+
+
+
+
+
+
+
+

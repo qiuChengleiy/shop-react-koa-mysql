@@ -1,0 +1,86 @@
+/*
+ * 时间：2018-04-27
+ * 购物区导航栏样式
+ */
+
+
+.con-nav {
+    width: 90%;
+}
+ 
+.nav {  
+    background: #282828 none repeat scroll 0 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+}
+
+.nav::before {
+    border-color: #282828 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 40px 45px 45px;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 0;
+    z-index: -1;
+}
+
+.nav li{
+    margin-left: 10px;
+    display: inline-block;
+    background: #282828 none repeat scroll 0 0;
+}
+
+.nav li a {
+    font-size: 12px;
+    color: #ddd;
+    outline: medium none;
+    text-decoration: none;
+}
+
+.nav>li>a:hover {
+    background: #282828 none repeat scroll 0 0;
+}
+
+.nav li a:hover {
+    color: #cd6289;
+}
+
+
+
+
+/**================= 图标区 ================*/
+
+.nav-order {
+    padding: 20px;
+}
+
+.nav-order-img img{
+   width: 45px; 
+   height: 45px;
+   display:block;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+
+.nav-order-h5 {
+    font-size: 18px;
+    text-align: center;
+    color: #cd6289;
+    margin-bottom: 3px;
+}
+
+.nav-order p {
+    text-align: center;
+    color:  #282828;
+    font-size: 14px;
+}
+
+
