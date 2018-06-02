@@ -1,2 +1,6 @@
 node_modules/
 server/static/build/node_modules/
+server/static/public/fonts/
+server/static/public/images/
+server/static/public/bootstrap/
+server/static/public/font-awesome/
